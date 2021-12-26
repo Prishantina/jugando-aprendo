@@ -1,0 +1,208 @@
+.header {
+    font-family: 'Permanent Marker', cursive;
+    background-color: rgb(68, 230, 178);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.nav-link {
+    color: #fff;
+}
+/* INDEX */
+.img {
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: ghostwhite;
+}
+.lectura {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(189, 84, 185, 0.33), ghostwhite );
+    
+}
+.imgLect {
+    border-radius: 100%;
+    opacity: 0.8;
+}
+
+.button1 {
+ height: 150px;
+ background-image: linear-gradient(ghostwhite, rgba(189, 84, 185, 0.33));
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ justify-content: center;
+ align-items: center;
+}
+
+.botonesAlfa {
+    background-image: url(imagenes/fondocolor.jpg);
+    width: 100%;
+    height: 400px;
+}
+.box {
+    height: 50vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin-top: 50px;
+}
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 60%;
+}
+.box .hover {
+    width: 0%;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.227);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.hover {
+    color: rgb(230, 230, 236);
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.box:hover .hover {
+    width: 100%;
+}
+.ajustes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer {
+    color:rgb(0, 10, 100);
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 2rem;
+    background-color: rgb(68, 230, 178);
+    text-align: center;
+    padding: 50px;
+}
+.titulo{
+    background-color: rgb(68, 230, 178);
+    color: #fff;
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+}
+.texto {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+    color:rgb(0, 10, 100);
+    background-color: white;
+}
+/* sección juego */
+#formNombre {
+    background-color: rgb(7, 153, 107);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Readex Pro', sans-serif;
+}
+#formLetra {
+    background-color: rgb(7, 153, 107);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Readex Pro', sans-serif;
+}
+#formRespuesta {
+    background-color: rgb(7, 153, 107);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Readex Pro', sans-serif;
+}
+.estiloBtn{
+    background-color: rgb(7, 153, 107);
+    color: #fff;
+    font-family: 'Readex Pro', sans-serif;
+}
+#divNombreJugador {
+    background-color: rgb(7, 153, 107);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Readex Pro', sans-serif;
+    list-style-type: none;
+    color:rgb(0, 10, 100);
+    font-size: 1.5rem;
+}
+#mostrarDescImg {
+    background-color: rgb(7, 153, 107);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Readex Pro', sans-serif;
+    list-style-type: none;
+    color:rgb(0, 10, 100);
+    font-size: 1.5rem;
+}
+#respuestas{
+    background-color: rgb(7, 153, 107);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Readex Pro', sans-serif;
+    color:rgb(0, 10, 100);
+    font-size: 1.5rem;
+}
+.botonesAlfa2 {
+    background-image: url(imagenes/fondocolor.jpg);
+    width: 100%;
+    font-size: 1.5rem;
+    color:rgb(0, 10, 100);
+    text-align: center;
+}
+.imgJugar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    /* Sección cuentos */
+.imgLectura {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#btnCuentos {
+    background-color: rgb(26, 223, 161);
+    padding: 8px;
+}
+.buttonMasCuentos {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./imagenes/fondocolor.jpg);
+}
+/* Media Query del index */
+@media screen  and (max-width: 700px ) {
+    .botonesAlfa {
+        display: none
+    }      
+}
+       
+

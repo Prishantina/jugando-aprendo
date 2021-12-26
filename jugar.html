@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!-- fonts2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200&display=swap" rel="stylesheet">
+    <title>Jugando Aprendo - Jugar con el Abecedario</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Jugando Aprendo</h1>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html" target="_self">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="jugar.html" target="_self">Juego</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cuentos.html" target="_self">Cuentos</a>
+            </li>
+          </ul>
+    </header>
+    <div class="imgLectura">
+      <img src="imagenes/alfabetizacion.png" class="img-fluid" alt="niñosLeyendo">
+    </div>
+    <form id = "formNombre">
+      <h2>Ingresa tu nombre</h2>
+      <input id = "name" type="text">
+      <input type="submit" value="Aceptar" class="estiloBtn">
+  </form>
+
+  <div id = "divNombreJugador">
+  </div>
+
+  <form id = "formLetra">
+      <h2>Ingresa una letra</h2>
+      <input id = "letraIngresada" type="text">
+      <input type="submit" value="Aceptar" class="estiloBtn">
+  </form>
+
+  <div id = "mostrarDescImg">
+
+  </div>
+  <form id ="formRespuesta">
+      <h2>Ingresa tu respuesta</h2>
+      <input id = "respuestaIngresada" type="text">
+      <input type="submit" value="Mi respuesta" class="estiloBtn">
+  </form>
+  
+  <div id = "respuestas">
+  </div>
+  <section class="botonesAlfa2">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Instrucciones:</h2>
+          <p>El juego consiste en elegir una letra de la A a la Z. Luego, se mostrará en pantalla la definición de alguna palabra que comience con la letra elegida.
+            Tendrás que escribir la palabra que corresponde a dicha definición.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="imgJugar">
+    <img src="imagenes/lecturaLibros.jpg" class="img-fluid" alt="lectura">
+  </div>
+  <footer class="footer">
+    <div class="container-fluid">
+        <div class="row mt-5 mb-5">
+            <div class=" col-md-12">
+                <h4>Jugando Aprendo es una web pensada para niños que se encuentran en proceso de alfabetización.</h4> 
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="app2.js"></script>
+</body>
+</html>
